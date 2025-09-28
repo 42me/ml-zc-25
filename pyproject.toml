@@ -1,7 +1,13 @@
 [project]
-name = "7-ml-zoomcamp"
+name = "ml-zoomcamp"
 version = "0.1.0"
-description = "Add your description here"
+description = "Machine Learning Zoomcamp 2025"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+  "jupyter", 
+  "numpy", 
+  "pandas", 
+  "scikit-learn", 
+  "seaborn"
+]
